@@ -34,3 +34,8 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.description {
+  text-align: center;
+  padding: 5px;
+}

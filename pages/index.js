@@ -1,19 +1,21 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import styles from '@components/Logo.module.css'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>ZA Bikers is Changing Gears</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <img src="/gear.svg" alt="ZA Bikers is undergoing maintenance" className={styles.logo} />
+        <Header title="ZA Bikers is Changing Gears" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          We're undergoing some maintenance and will be back online as soon as possible
         </p>
       </main>
 
