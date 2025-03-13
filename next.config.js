@@ -5,14 +5,14 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
-/* module.exports = {
+module.exports = {
   async redirects() {
     return [
       {
-        source: '/:path(^(?!.*\bmaintenance\b).*$)',
+        source: '/:path((?!maintenance$|logo$|images/).*)',
         destination: '/maintenance',
         permanent: false,
       },
     ]
   },
-} */
+}

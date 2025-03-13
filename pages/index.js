@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <img src="/gear.svg" alt="ZA Bikers is undergoing maintenance" className={styles.logo} />
+        <img src="images/gear.svg" alt="ZA Bikers is undergoing maintenance" className={styles.logo} />
         <Header title="ZA Bikers is Changing Gears" />
         <p className="description">
           We're undergoing some maintenance and will be back online as soon as possible
