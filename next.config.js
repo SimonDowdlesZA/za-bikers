@@ -4,3 +4,15 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+/* module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/:path(^(?!.*\bmaintenance\b).*$)',
+        destination: '/maintenance',
+        permanent: false,
+      },
+    ]
+  },
+} */
