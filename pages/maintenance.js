@@ -10,6 +10,12 @@ export default function Maintenance() {
         <title>ZA Bikers</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="noindex,nofollow,noarchive" />
+        <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+        <link rel="shortcut icon" href="images/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="ZA Bikers" />
+        <link rel="manifest" href="images/site.webmanifest" />
       </Head>
 
       <main>
